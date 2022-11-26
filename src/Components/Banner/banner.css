@@ -1,0 +1,19 @@
+.container__banner{    
+    min-height: 600px;
+}
+
+.name{
+    font-size: 4rem;
+}
+
+
+.image__profile{
+    height: auto;
+    width: 100%; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;  
+}
+.col__image, .col__description{
+    background-color: #171717;;
+}

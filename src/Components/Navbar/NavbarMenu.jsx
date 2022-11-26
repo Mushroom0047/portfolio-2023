@@ -11,21 +11,19 @@ const NavbarMenu = () => {
       <Navbar className='menu' expand="lg" sticky="top">
       <Container>
       <Navbar.Brand href="#home">
-            <img
-              src={Logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
-          <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <img
+          src={Logo}
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+          alt="React Bootstrap logo"
+        />
+      </Navbar.Brand>
+        <Nav className="d-flex flex-row">
+          <Nav.Link className='px-3 text-light' href="#home">Home</Nav.Link>
+          <Nav.Link className='px-3 text-light' href="#features">Features</Nav.Link>
+          <Nav.Link className='px-3 text-light' href="#pricing">Pricing</Nav.Link>
+        </Nav>
       </Container>
     </Navbar> 
   </>
