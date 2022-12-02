@@ -1,12 +1,10 @@
 .container__banner{    
     min-height: 600px;
+    background-color: #171717;
 }
-
 .name{
     font-size: 4rem;
 }
-
-
 .image__profile{
     height: auto;
     width: 100%; 
@@ -14,6 +12,6 @@
     position: sticky;
     top: 0;  
 }
-.col__image, .col__description{
-    background-color: #171717;;
+.col__description{
+    margin-bottom: 30px;
 }
