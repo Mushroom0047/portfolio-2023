@@ -3,10 +3,13 @@ import { Projects } from "../Projects/Projects"
 import './portfolio.css'
 
 const Portfolio = () => {
+
   return (
     <Container fluid="lg">
       <Row>
         <Col sm={12} className="p-5">
+        <h2 className="mt-5">Proyectos</h2>
+        <hr/>
             <Tabs
           defaultActiveKey="react"
           id="projectsTabs" 
@@ -14,13 +17,13 @@ const Portfolio = () => {
           justify         
           >
             <Tab eventKey="react" title="React" >
-              <Projects />
+              <Projects nameProject="reactProjects"/>
             </Tab>
             <Tab eventKey="wordpress" title="WordPress" className="portfolio__tabs">
-            <Projects />
+            <Projects nameProject="rordpressProjects"/>
             </Tab>
             <Tab eventKey="games" title="Games" className="portfolio__tabs">
-            <Projects />
+            <Projects nameProject="gamesProjects"/>
             </Tab>
           </Tabs>
         </Col>

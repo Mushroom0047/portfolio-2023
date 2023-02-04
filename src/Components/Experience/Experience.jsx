@@ -6,7 +6,6 @@ const Experience = ({company, year, excerpt}) => {
     const listItems = excerpt.map((li, index) => {
       return <li key={index}>{li}</li>
     });
-    console.log(listItems)
     return (
     <div>
         <p>{moment(year, "YYYYMMDD").fromNow()} | {company}</p>

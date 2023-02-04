@@ -18,9 +18,9 @@ export const Banner = () => {
                   ¡Hola! Me llamo Héctor Valdés y soy Analista programador egresado de Inacap 
                   con experiencia en desarrollo web. 
                   Me especializo en JavaScript, HTML, CSS y en el frameworks React. 
-                  <br/>También tengo experiencia en tecnologías de base de datos como MySQL, 
+                  También tengo experiencia en tecnologías de base de datos como MySQL, 
                   así como en herramientas de desarrollo como Git y GitHub. 
-                  Estoy comprometido a crear productos digitales de calidad que 
+                  <br/> <br/>Estoy comprometido a crear productos digitales de calidad que 
                   sean fáciles de usar y ofrezcan la mejor experiencia para los 
                   usuarios. Siempre estoy aprendiendo nuevas tecnologías y me 
                   aseguro de estar al tanto de los últimos avances en el desarrollo 
@@ -28,6 +28,7 @@ export const Banner = () => {
                   </p>
 
                   <h2 className="mt-5">Skills</h2>
+                  <hr/>
                   <Skills titulo="JAVASCRIPT" percentage={80} img={'javascript--v1.png'}/>
                   <Skills titulo="CSS-SASS" percentage={80} img={'sass.png'}/>
                   <Skills titulo="HTML" percentage={80} img={'html-5--v1.png'}/>
@@ -50,7 +51,7 @@ export const Banner = () => {
                     year = "20210501" 
                     company = "Agencia de marketing DesignSEO"
                     excerpt={expTwo}
-                  />                           
+                  />                                           
             </Col>
             <Col sm={12} md={6} className="col__image">
                 <img                 
