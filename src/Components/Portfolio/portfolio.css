@@ -1,0 +1,15 @@
+.portfolio__tabs button{
+    color: #fff
+}
+.portfolio__tabs button:focus{
+    color: #fff
+}
+.portfolio__tabs button:hover{
+    border-color: #dfac13 !important;
+    color: #dfac13;
+}
+.portfolio__tabs button.active{
+    background-color: transparent !important;
+    color: #dfac13 !important;
+    border-color: #dfac13 !important;
+}

@@ -21,6 +21,7 @@ const NavbarMenu = () => {
       </Navbar.Brand>
         <Nav className="d-flex flex-row">
           <Nav.Link className='px-3 text-light' href="#home">Home</Nav.Link>
+          <Nav.Link className='px-3 text-light' href="#features">Habilidades</Nav.Link>
           <Nav.Link className='px-3 text-light' href="#features">Proyectos</Nav.Link>
           <Nav.Link className='px-3 text-light' href="#pricing">Contacto</Nav.Link>
         </Nav>
