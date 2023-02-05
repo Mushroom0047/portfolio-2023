@@ -2,6 +2,8 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap"
 import { Projects } from "../Projects/Projects"
 import './portfolio.css'
 
+import {reactProjects, wordpressProjects, gamesProjects} from '../Projects/projectsList.js';
+
 const Portfolio = () => {
 
   return (
@@ -17,13 +19,13 @@ const Portfolio = () => {
           justify         
           >
             <Tab eventKey="react" title="React" >
-              <Projects nameProject="reactProjects"/>
+              <Projects nameProject={reactProjects}/>
             </Tab>
             <Tab eventKey="wordpress" title="WordPress" className="portfolio__tabs">
-            <Projects nameProject="rordpressProjects"/>
+            <Projects nameProject={wordpressProjects}/>
             </Tab>
             <Tab eventKey="games" title="Games" className="portfolio__tabs">
-            <Projects nameProject="gamesProjects"/>
+            <Projects nameProject={gamesProjects}/>
             </Tab>
           </Tabs>
         </Col>
