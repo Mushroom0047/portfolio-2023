@@ -1,6 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { Skills } from "../Skills/Skills"
-import imgProfile from '/src/assets/img-profile.png';
 import Experience from "../Experience/Experience";
 import './banner.css'
 
@@ -10,9 +9,9 @@ export const Banner = () => {
   const expOne = ['Diseño y planificación de desarrollo web','Maquetación páginas en WordPress con Elementor y WpBackery','Desarrollo tiendas Online con Woocommerce','Desarrollos personalizados con JetEngine y Custom Fields'];
   const expTwo = ['Planificación de desarrollo web','Maquetación páginas en WordPress con Elementor y Divi','Desarrollo tiendas Online con Woocommerce'];
   return (
-    <Container fluid="lg" className="container__banner">
+    <Container fluid="lg" className="container__banner" id="about">
         <Row>
-            <Col sm={12} md={6} className="p-5 col__description">
+            <Col sm={12} md={6} className="p-5 mb-5">
                 <h1 className="name">HÉCTOR VALDÉS M</h1>
                 <p className="description">
                   ¡Hola! Me llamo Héctor Valdés y soy Analista programador egresado de Inacap 
@@ -27,7 +26,7 @@ export const Banner = () => {
                   web.
                   </p>
 
-                  <h2 className="mt-5">Skills</h2>
+                  <h2 className="mt-5" id="skills">Skills</h2>
                   <hr/>
                   <Skills titulo="JAVASCRIPT" percentage={80} img={'javascript--v1.png'}/>
                   <Skills titulo="CSS-SASS" percentage={80} img={'sass.png'}/>
@@ -40,7 +39,7 @@ export const Banner = () => {
                   <Skills titulo="JAVA" percentage={20} img={'java-coffee-cup-logo--v1.png'}/>
                   <Skills titulo="C#" percentage={10} img={'c-sharp-logo.png'}/>
 
-                  <h2 className="mt-5">Experiencia</h2>
+                  <h2 className="mt-5" id='experience'>Experiencia</h2>
                   <hr />
                   <Experience
                     year = "20220401" 
@@ -53,13 +52,9 @@ export const Banner = () => {
                     excerpt={expTwo}
                   />                                           
             </Col>
-            <Col sm={12} md={6} className="col__image">
-                <img                 
-                className="image__profile"
-                src={imgProfile}
-                width={100}
-                height={100}
-                />
+            <Col sm={12} md={6} lg={6} >              
+              <div className="div__bg"></div>                                       
+              <div className="div__bg2"></div>                                       
             </Col>
         </Row>              
     </Container>

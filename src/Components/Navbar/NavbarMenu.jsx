@@ -19,11 +19,12 @@ const NavbarMenu = () => {
           alt="React Bootstrap logo"
         />
       </Navbar.Brand>
-        <Nav className="d-flex flex-row">
-          <Nav.Link className='px-3 text-light' href="#home">Home</Nav.Link>
-          <Nav.Link className='px-3 text-light' href="#features">Habilidades</Nav.Link>
-          <Nav.Link className='px-3 text-light' href="#features">Proyectos</Nav.Link>
-          <Nav.Link className='px-3 text-light' href="#pricing">Contacto</Nav.Link>
+        <Nav className="d-flex flex-row link__menu">
+          <Nav.Link className='px-3' href="#about">Sobre mí</Nav.Link>
+          <Nav.Link className='px-3' href="#skills">Habilidades</Nav.Link>
+          <Nav.Link className='px-3' href="#experience">Experiencia</Nav.Link>
+          <Nav.Link className='px-3' href="#projects">Proyectos</Nav.Link>
+          <Nav.Link className='px-3' href="#contact">Hablemos</Nav.Link>
         </Nav>
       </Container>
     </Navbar> 

@@ -7,7 +7,7 @@ import {reactProjects, wordpressProjects, gamesProjects} from '../Projects/proje
 const Portfolio = () => {
 
   return (
-    <Container fluid="lg">
+    <Container fluid="lg" id="projects">
       <Row>
         <Col sm={12} className="p-5">
         <h2 className="mt-5">Proyectos</h2>

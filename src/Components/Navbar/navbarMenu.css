@@ -4,3 +4,35 @@
 .navbar-toggler{
     border: none !important;
 }
+.link__menu a {
+    background-image: linear-gradient(to right, #dfac13, #dfac13 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    background-clip: text;    
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .link__menu a:before {
+    background: #dfac13;
+    bottom: -3px;
+    content: "";
+    display: block;
+    left: 0;
+    height: 3px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 0;
+  }
+  
+  .link__menu a:hover {
+    background-position: 0;
+  }
+  
+  .link__menu a:hover::before {
+    width: 100%;
+  }

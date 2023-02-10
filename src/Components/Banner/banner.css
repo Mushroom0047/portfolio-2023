@@ -5,13 +5,20 @@
 .name{
     font-size: 4rem;
 }
-.image__profile{
-    height: auto;
-    width: 100%; 
-    position: -webkit-sticky;
-    position: sticky;
-    top: 80px;  
+
+.div__bg{
+    height: 800px;
+    background-image: url('/src/assets/yo-webp.webp');
+    background-attachment: fixed; 
+    background-size: 50%; 
+    background-repeat: no-repeat; 
+    background-position: 100%; 
 }
-.col__description{
-    margin-bottom: 30px;
+.div__bg2{
+    height: 800px;
+    background-image: url('/src/assets/img-profile.png');
+    background-attachment: fixed; 
+    background-size: 50%; 
+    background-repeat: no-repeat; 
+    background-position: 100%; 
 }
