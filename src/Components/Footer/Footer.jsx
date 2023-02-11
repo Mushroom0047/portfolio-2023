@@ -6,6 +6,7 @@ export const Footer = () => {
     <Container fluid className='footer__bg'>
         <Row>
           <Col className="text-center">
+            <hr/>
             <img 
               src={LogoWhite}
               width="400px"

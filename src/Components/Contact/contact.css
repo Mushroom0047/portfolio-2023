@@ -1,0 +1,24 @@
+.title__icon:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #dfac13,
+                0 0 25px #dfac13,
+                0 0 50px #dfac13,
+                0 0 100px #dfac13;
+    transition: 0.5s;
+  }
+  .title__icon{
+    transition: 0.5s;
+  }
+  .div__icon:hover{
+    transform: translate(0, -10px);
+    transition: 0.5s;
+  }
+  .div__icon{
+    transform: translate(0, +10px);
+    transition: 0.5s;
+  }
+
+  .row__icons{
+    padding: 30px 18% !important;
+  }
+ 

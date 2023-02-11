@@ -4,9 +4,10 @@
     cursor: pointer;
     text-align: left;
     transition: 0.5s;
-    max-width: 400px !important;
-    width: 270px !important;
+    padding: 0px !important;
     margin: 15px 2px;
+    max-width: 400px !important;
+    width: auto !important;
 }
 .div__projects_single:hover{
   border: 1px solid #dfac13;
@@ -46,5 +47,12 @@
   
   .div__projects_single a:hover::before {
     width: 100%;
+  }
+  .div__icons__projects{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    width: 100%;
+    gap: 15px;
   }
   

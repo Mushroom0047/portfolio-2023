@@ -19,13 +19,16 @@ const NavbarMenu = () => {
           alt="React Bootstrap logo"
         />
       </Navbar.Brand>
-        <Nav className="d-flex flex-row link__menu">
+      <Navbar.Toggle aria-controls="navMenu" />
+      <Navbar.Collapse id="navMenu">
+        <Nav className="link__menu me-auto my-2 my-lg-0" navMenu>
           <Nav.Link className='px-3' href="#about">Sobre mí</Nav.Link>
           <Nav.Link className='px-3' href="#skills">Habilidades</Nav.Link>
           <Nav.Link className='px-3' href="#experience">Experiencia</Nav.Link>
           <Nav.Link className='px-3' href="#projects">Proyectos</Nav.Link>
           <Nav.Link className='px-3' href="#contact">Hablemos</Nav.Link>
-        </Nav>
+        </Nav>      
+      </Navbar.Collapse>  
       </Container>
     </Navbar> 
   </>

@@ -11,7 +11,7 @@ hr{
     background-color: #171717;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, h4, p{
     color: #fff
 }
 h1, h2, h3{
@@ -25,6 +25,17 @@ h2{
     font-weight: 300;
 }
 h3{
-    font-size: 14px !important;
+    font-size: 16px !important;
     letter-spacing: 1px;    
+}
+h4{
+    font-family: 'Courier New', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+p, li{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+a{
+    text-decoration: none !important;
 }

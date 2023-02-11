@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { Skills } from "../Skills/Skills"
 import Experience from "../Experience/Experience";
+import ImgProfile from '../../assets/yo-webp.webp'
 import './banner.css'
 
 // import { wordpress } from "@fortawesome/free-brands-svg-icons";
@@ -52,9 +53,14 @@ export const Banner = () => {
                     excerpt={expTwo}
                   />                                           
             </Col>
-            <Col sm={12} md={6} lg={6} >              
-              <div className="div__bg"></div>                                       
-              <div className="div__bg2"></div>                                       
+            <Col className="text-end" sm={12} md={6} lg={6} >              
+              <img
+              className="img__profile"
+              src={ImgProfile}
+              width='80%'
+              height='auto'
+              alt='Imagen de perfil'
+              />                                      
             </Col>
         </Row>              
     </Container>
