@@ -26,13 +26,6 @@ export const wordpressProjects = [
         icon: [woo]
     },
     {
-        title: "Frozensour.cl",
-        desc: "Tienda de bebidas hecha en Shopify",
-        urlImg: urlImg + 'Frozen.webp',
-        link: "https://frozensour.cl/",
-        icon: [shopify]
-    },
-    {
         title: "cantauriaestudio.cl",
         desc: "Sitio web para estudio de tatuajes maquetado en WordPress y Elementor, diseñado en Figma",
         urlImg: urlImg + "cantauria-min.webp",
@@ -40,11 +33,11 @@ export const wordpressProjects = [
         icon: [elementor, figma]
     },
     {
-        title: "armag.cl",
-        desc: "Sitio web para cotizar arriendo de maquinaría",
-        urlImg: urlImg + "armag-min.webp",
-        link: "https://armag.cl/",
-        icon: [elementor, woo]
+        title: "Frozensour.cl",
+        desc: "Tienda de bebidas hecha en Shopify",
+        urlImg: urlImg + 'Frozen.webp',
+        link: "https://frozensour.cl/",
+        icon: [shopify]
     },
     {
         title: "cellzion.cl",
@@ -58,6 +51,20 @@ export const wordpressProjects = [
         desc: "Set de 5 sitios web corporativos desarrollados a medida",
         urlImg: urlImg + "gp-min.webp",
         link: "https://globalpartners.cl/",
+        icon: [elementor, woo, figma]
+    },
+    {
+        title: "armag.cl",
+        desc: "Sitio web para cotizar arriendo de maquinaría",
+        urlImg: urlImg + "armag-min.webp",
+        link: "https://armag.cl/",
+        icon: [elementor, woo]
+    },
+    {
+        title: "Brickpicture.cl",
+        desc: "Tienda de cuadros decorativos, diseño personalizado desarrollado en Elementor",
+        urlImg: urlImg + "brickpicture-min.webp",
+        link: "https://brickpicture.cl/",
         icon: [elementor, woo, figma]
     },
     {
@@ -75,16 +82,16 @@ export const wordpressProjects = [
         link: "#",
         icon: [elementor]
     },
-    {
-        title: "Brickpicture.cl",
-        desc: "Tienda de cuadros decorativos, diseño personalizado desarrollado en Elementor",
-        urlImg: urlImg + "brickpicture-min.webp",
-        link: "https://brickpicture.cl/",
-        icon: [elementor, woo, figma]
-    },
 ]
 
 export const gamesProjects = [
+    {
+        title: "The Dream Of The River",
+    desc: 'Esste juego trata sobre un pez que nada por un rio, inspirado en los humedales de Quilpué, fue desarrollado para una JAM en 12 días. Actualmente está en desarrollo.',
+        urlImg: urlImg + "Portada TheDreamOfTheRiver 169.webp",
+        link: "https://gx.games/es/games/gaer2v/the-dream-of-the-river/",
+        icon: [gms]
+    },
     {
         title: "Cachipún",
         desc: 'Este es mi primer juego sobre piedra,  papel y tijeras llamado CACHIPÚN',
@@ -104,13 +111,6 @@ export const gamesProjects = [
         desc: 'Un juego de aventuras donde acompañaremos a Frank, un humano creado genéticamente, a través de la misteriosa ciudad de Uxo, gobernada por un rey que tiene muchos secretos que contar ...',
         urlImg: urlImg + "humanity-min.webp",
         link: "https://mushroomdev47.itch.io/humanity-part-i",
-        icon: [gms]
-    },
-    {
-        title: "The Dream Of The River",
-    desc: 'Esste juego trata sobre un pez que nada por un rio, inspirado en los humedales de Quilpué, fue desarrollado para una JAM en 12 días. Actualmente está en desarrollo.',
-        urlImg: urlImg + "Portada TheDreamOfTheRiver 169.webp",
-        link: "https://gx.games/es/games/gaer2v/the-dream-of-the-river/",
         icon: [gms]
     },
 ]
