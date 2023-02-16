@@ -8,7 +8,7 @@ import './navbarMenu.css'
 const NavbarMenu = () => {
   return (
     <>
-      <Navbar className='menu' expand="lg" sticky="top">
+      <Navbar className='menu' expand="lg" sticky="top" collapseOnSelect >
       <Container>
       <Navbar.Brand href="#home">
         <img

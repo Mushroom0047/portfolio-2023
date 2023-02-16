@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal"
 import { Banner } from "./Components/Banner/Banner"
 import { Contact } from "./Components/Contact/Contact"
 import { Footer } from "./Components/Footer/Footer"
@@ -11,7 +12,9 @@ function App() {
     <>
       <NavbarMenu />
       <Banner />
+      <Fade triggerOnce direction="up">
       <Portfolio />
+      </Fade>
       <Contact />
       <Footer />
     </>

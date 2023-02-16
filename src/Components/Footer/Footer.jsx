@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <Container fluid className='footer__bg'>
         <Row>
-          <Col className="text-center">
+          <Col className="text-center" sm={12} md={12} lg={12}>
             <hr/>
             <img 
               src={LogoWhite}
@@ -16,6 +16,7 @@ export const Footer = () => {
             <hr/>
             <p>2023 Héctor Valdés M 🍄</p>
           </Col>
+          <Col className='js-pride-month-gradient' sm={12} md={12} lg={12}></Col>
         </Row>
     </Container>
   )

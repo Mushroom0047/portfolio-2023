@@ -5,6 +5,7 @@ import GitSVG from '../../assets/1325-code-fork-outline.webp';
 import EmailSVG from '../../assets/145-envelope-mail-notification-open-morph-outline.webp';
 import IconContact from "./IconContact";
 import './contact.css';
+import { Fade, Slide } from "react-awesome-reveal";
 
 export const Contact = () => {
     const urlLinks = [
@@ -17,15 +18,19 @@ export const Contact = () => {
     <Container fluid="lg">
         <Row>
             <Col className="px-5">
+                <Slide triggerOnce>
                 <h2 className="mt-5" id='contact'>Hablemos</h2>
+                </Slide>
                 <hr />
             </Col>
-            <Row className="row__icons">
+            <Fade direction="up">
+            <Row className="row__icons">                
                 <IconContact urlLink={urlLinks[0]} icon={InstagramSVG} nombre='Instagram'/>
                 <IconContact urlLink={urlLinks[1]} icon={GitSVG} nombre='Github'/>
                 <IconContact urlLink={urlLinks[2]} icon={LinkedinSVG} nombre='LinkedIn'/>
-                <IconContact urlLink={urlLinks[3]} icon={EmailSVG} nombre='Email'/>
+                <IconContact urlLink={urlLinks[3]} icon={EmailSVG} nombre='Email'/>            
             </Row>
+            </Fade>
         </Row>        
     </Container>
   )

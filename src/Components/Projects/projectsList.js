@@ -1,10 +1,11 @@
 const urlImg = '/src/assets/ProjectsImages/'
 
-const {woo, elementor, shopify, figma} = {
+const {woo, elementor, shopify, figma, gms} = {
     'woo': 'https://img.icons8.com/color/48/null/woocommerce.png', 
     'elementor': 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-elementor-the-wordpress-page-builder-a-simple-intuitive-drag-and-drop-interface-logo-color-tal-revivo.png',
     'shopify': 'https://img.icons8.com/color/48/null/shopify.png',
-    'figma': 'https://img.icons8.com/color/48/null/figma--v1.png'
+    'figma': 'https://img.icons8.com/color/48/null/figma--v1.png',
+    'gms': 'https://img.icons8.com/color/48/null/game-maker.png'
 }
 export const reactProjects = [
     {
@@ -22,7 +23,7 @@ export const wordpressProjects = [
         desc: "Tienda hecha con Woocommerce y wpBakery",
         urlImg: urlImg + 'Natural-concreto.webp',
         link: "https://www.naturalconcreto.cl/",
-        icon: [woo, elementor]
+        icon: [woo]
     },
     {
         title: "Frozensour.cl",
@@ -41,14 +42,14 @@ export const wordpressProjects = [
     {
         title: "armag.cl",
         desc: "Sitio web para cotizar arriendo de maquinaría",
-        urlImg: urlImg + "cellzion-min.webp",
+        urlImg: urlImg + "armag-min.webp",
         link: "https://armag.cl/",
         icon: [elementor, woo]
     },
     {
         title: "cellzion.cl",
         desc: "Sitio web corporativo",
-        urlImg: urlImg + "cantauria-min.webp",
+        urlImg: urlImg + "cellzion-min.webp",
         link: "https://cellzion.cl/",
         icon: [elementor]
     },
@@ -85,10 +86,31 @@ export const wordpressProjects = [
 
 export const gamesProjects = [
     {
-        title: "",
-        desc: "",
-        urlImg: "",
-        link: "",
-        icon: []
+        title: "Cachipún",
+        desc: 'Este es mi primer juego sobre piedra,  papel y tijeras llamado CACHIPÚN',
+        urlImg: urlImg + "cachipun-min.webp",
+        link: "https://mushroomdev47.itch.io/cachipun",
+        icon: [gms]
+    },
+    {
+        title: "ZomBeast Under Attack",
+        desc: 'Un simple juego de disparos hecho para aprender, tal vez no sea el juego del año, pero me ayudó a mejorar mis habilidades de programación',
+        urlImg: urlImg + "ZomBeast-min.webp",
+        link: "https://mushroomdev47.itch.io/zombeast-underattack",
+        icon: [gms]
+    },
+    {
+        title: "Humanity Part I",
+        desc: 'Un juego de aventuras donde acompañaremos a Frank, un humano creado genéticamente, a través de la misteriosa ciudad de Uxo, gobernada por un rey que tiene muchos secretos que contar ...',
+        urlImg: urlImg + "humanity-min.webp",
+        link: "https://mushroomdev47.itch.io/humanity-part-i",
+        icon: [gms]
+    },
+    {
+        title: "The Dream Of The River",
+    desc: 'Esste juego trata sobre un pez que nada por un rio, inspirado en los humedales de Quilpué, fue desarrollado para una JAM en 12 días. Actualmente está en desarrollo.',
+        urlImg: urlImg + "Portada TheDreamOfTheRiver 169.webp",
+        link: "https://gx.games/es/games/gaer2v/the-dream-of-the-river/",
+        icon: [gms]
     },
 ]

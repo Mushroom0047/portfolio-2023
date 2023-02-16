@@ -36,3 +36,7 @@
   .link__menu a:hover::before {
     width: 100%;
   }
+  button[aria-controls='navMenu']{
+    background-color: #fff;;
+  }
+  

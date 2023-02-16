@@ -21,7 +21,7 @@ const Portfolio = () => {
             <Tab eventKey="react" title="React" >
               <Projects nameProject={reactProjects}/>
             </Tab>
-            <Tab eventKey="wordpress" title="WordPress" className="portfolio__tabs">
+            <Tab eventKey="wordpress" title="WordPress | Shopify" className="portfolio__tabs">
             <Projects nameProject={wordpressProjects}/>
             </Tab>
             <Tab eventKey="games" title="Games" className="portfolio__tabs">
