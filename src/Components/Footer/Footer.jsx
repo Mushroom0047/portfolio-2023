@@ -1,5 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import LogoWhite from '/src/assets/logo_white.png'
+import LogoWhite from '/assets/logo_white.png'
 
 export const Footer = () => {
   return (

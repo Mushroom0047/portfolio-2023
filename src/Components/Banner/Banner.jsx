@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { Skills } from "../Skills/Skills"
 import Experience from "../Experience/Experience";
-import ImgProfile from '../../assets/yo-webp.webp';
+import ImgProfile from '/assets/yo-webp.webp';
 import Image from 'react-bootstrap/Image';
 import './banner.css';
 import { Fade, Slide } from "react-awesome-reveal";

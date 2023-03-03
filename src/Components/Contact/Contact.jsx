@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap"
-import InstagramSVG from '../../assets/61-camera-outline.webp';
-import LinkedinSVG from '../../assets/705-man-style-3-outline.webp';
-import GitSVG from '../../assets/1325-code-fork-outline.webp';
-import EmailSVG from '../../assets/145-envelope-mail-notification-open-morph-outline.webp';
+import InstagramSVG from '/assets/61-camera-outline.webp';
+import LinkedinSVG from '/assets/705-man-style-3-outline.webp';
+import GitSVG from '/assets/1325-code-fork-outline.webp';
+import EmailSVG from '/assets/145-envelope-mail-notification-open-morph-outline.webp';
 import IconContact from "./IconContact";
 import './contact.css';
 import { Fade, Slide } from "react-awesome-reveal";

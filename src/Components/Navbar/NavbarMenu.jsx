@@ -1,7 +1,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from '/src/assets/Logo-Mushroom-home.png'
+import Logo from '/assets/Logo-Mushroom-home.png'
 import './navbarMenu.css'
 
 

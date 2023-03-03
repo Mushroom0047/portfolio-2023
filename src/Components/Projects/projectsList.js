@@ -1,4 +1,4 @@
-const urlImg = '/src/assets/ProjectsImages/'
+const urlImg = '/assets/ProjectsImages/'
 
 const {woo, elementor, shopify, figma, gms} = {
     'woo': 'https://img.icons8.com/color/48/null/woocommerce.png', 
@@ -102,7 +102,7 @@ export const gamesProjects = [
     {
         title: "ZomBeast Under Attack",
         desc: 'Un simple juego de disparos hecho para aprender, tal vez no sea el juego del año, pero me ayudó a mejorar mis habilidades de programación',
-        urlImg: urlImg + "ZomBeast-min.webp",
+        urlImg: urlImg + "Zombeast-min.webp",
         link: "https://mushroomdev47.itch.io/zombeast-underattack",
         icon: [gms]
     },
