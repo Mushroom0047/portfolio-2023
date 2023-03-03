@@ -12,7 +12,7 @@ export const reactProjects = [
         title: "Gif expert app",
         desc: "Primera aplicación de React, muestra gifs consumiendo la API de Giphy.",
         urlImg: urlImg + "Gif-Expert-App-React.webp",
-        link: "",
+        link: "https://gif-expert-react-mushroom.netlify.app",
         icon: []
     },
 ]

@@ -19,6 +19,7 @@ const projectList = nameProject.map(({title, desc, urlImg, link, icon}, index) =
         alt={title}
         width='100%'
         height='auto'
+        fluid
       /> 
       <div className='p-3'>
         <h3 className='py-3'>{title}</h3>
