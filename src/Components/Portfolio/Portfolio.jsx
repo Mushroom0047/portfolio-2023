@@ -7,26 +7,26 @@ import {reactProjects, wordpressProjects, gamesProjects} from '../Projects/proje
 const Portfolio = () => {
 
   return (
-    <Container fluid="lg" id="projects">
+    <Container fluid='lg' id="projects">
       <Row>
         <Col sm={12} className="p-5">
         <h2 className="mt-5">Proyectos</h2>
         <hr/>
             <Tabs
-          defaultActiveKey="react"
+          defaultActiveKey="wordpress"
           id="projectsTabs" 
           className="portfolio__tabs"
           justify         
           >
-            <Tab eventKey="react" title="React" >
-              <Projects nameProject={reactProjects}/>
-            </Tab>
             <Tab eventKey="wordpress" title="WordPress | Shopify" className="portfolio__tabs">
             <Projects nameProject={wordpressProjects}/>
             </Tab>
             <Tab eventKey="games" title="Games" className="portfolio__tabs">
             <Projects nameProject={gamesProjects}/>
             </Tab>
+            <Tab eventKey="react" title="React">
+              <Projects nameProject={reactProjects}/>
+            </Tab>                        
           </Tabs>
         </Col>
       </Row>

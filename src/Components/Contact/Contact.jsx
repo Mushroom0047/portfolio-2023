@@ -25,7 +25,6 @@ export const Contact = () => {
             </Col>
             <Fade direction="up" triggerOnce>
             <Row className="row__icons">                
-                <IconContact urlLink={urlLinks[0]} icon={InstagramSVG} nombre='Instagram'/>
                 <IconContact urlLink={urlLinks[1]} icon={GitSVG} nombre='Github'/>
                 <IconContact urlLink={urlLinks[2]} icon={LinkedinSVG} nombre='LinkedIn'/>
                 <IconContact urlLink={urlLinks[3]} icon={EmailSVG} nombre='Email'/>            

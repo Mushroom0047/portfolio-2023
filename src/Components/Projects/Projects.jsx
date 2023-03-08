@@ -13,7 +13,9 @@ const projectList = nameProject.map(({title, desc, urlImg, link, icon}, index) =
     />)});
   
   
-  return (<Col className='div__projects_single m-1' key={index} xs={12} sm={12} md={4} lg={3}>    
+  return (
+  <Col 
+    className='div__projects_single' key={index} xs={12} sm={12} md={4} lg={3}>    
       <img 
         src={urlImg}
         alt={title}
@@ -21,7 +23,7 @@ const projectList = nameProject.map(({title, desc, urlImg, link, icon}, index) =
         height='auto'
         fluid
       /> 
-      <div className='p-3'>
+      <div className='p-2'>
         <h3 className='py-3'>{title}</h3>
         <p>{desc}</p>
         <div className='div__icons__projects'>
@@ -35,7 +37,7 @@ const projectList = nameProject.map(({title, desc, urlImg, link, icon}, index) =
 
   return (
     <Container fluid={true}>    
-      <Row >
+      <Row>
         {projectList}              
       </Row>  
     </Container>
