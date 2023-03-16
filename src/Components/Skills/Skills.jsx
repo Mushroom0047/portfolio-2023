@@ -15,7 +15,7 @@ export const Skills = ({titulo, percentage, img}) => {
             height='32'
             alt={titulo}
           />
-          <h3 className="px-3">{`${titulo} | ${now}%`}</h3>
+          <h3 className="px-3">{`${titulo}`}</h3>
         </div>        
         <ProgressBar now={percentage}/>        
     </>

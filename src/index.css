@@ -39,6 +39,8 @@ p, li{
 a{
     font-family: 'Courier New', Courier, monospace, sans-serif;
     text-decoration: none !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
 }
 
 /*PRIDE*/

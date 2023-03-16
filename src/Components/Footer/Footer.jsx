@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <Container fluid className='footer__bg'>
         <Row>
-          <Col className="text-center" sm={12} md={12} lg={12}>
+          <Col className="text-center" xs ={12} sm={12} md={12} lg={12}>
             <hr/>            
                 <a href='https://hectorvaldesm.com/'>                  
                     <img

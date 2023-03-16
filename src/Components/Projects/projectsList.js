@@ -18,13 +18,13 @@ export const reactProjects = [
 ]
 
 export const wordpressProjects = [
-    {
-        title: "Naturalconcreto.cl",
-        desc: "Tienda hecha con Woocommerce y wpBakery",
-        urlImg: urlImg + 'Natural-concreto.webp',
-        link: "https://www.naturalconcreto.cl/",
-        icon: [woo]
-    },
+    // {
+    //     title: "Naturalconcreto.cl",
+    //     desc: "Tienda hecha con Woocommerce y wpBakery",
+    //     urlImg: urlImg + 'Natural-concreto.webp',
+    //     link: "https://www.naturalconcreto.cl/",
+    //     icon: [woo]
+    // },
     {
         title: "cantauriaestudio.cl",
         desc: "Sitio web para estudio de tatuajes maquetado en WordPress y Elementor, diseñado en Figma",
@@ -46,13 +46,13 @@ export const wordpressProjects = [
         link: "https://cellzion.cl/",
         icon: [elementor]
     },
-    {
-        title: "Globalpartners.cl",
-        desc: "Set de 5 sitios web corporativos desarrollados a medida",
-        urlImg: urlImg + "gp-min.webp",
-        link: "https://globalpartners.cl/",
-        icon: [elementor, woo, figma]
-    },
+    // {
+    //     title: "Globalpartners.cl",
+    //     desc: "Set de 5 sitios web corporativos desarrollados a medida",
+    //     urlImg: urlImg + "gp-min.webp",
+    //     link: "https://globalpartners.cl/",
+    //     icon: [elementor, woo, figma]
+    // },
     {
         title: "armag.cl",
         desc: "Sitio web para cotizar arriendo de maquinaría",
@@ -73,15 +73,7 @@ export const wordpressProjects = [
         urlImg: urlImg + "linna-min.webp",
         link: "#",
         icon: [elementor]
-
-    },
-    {
-        title: "Refuerzamas.cl",
-        desc: "Sitio web informativo",
-        urlImg: urlImg + "refuerzamas-min.webp",
-        link: "#",
-        icon: [elementor]
-    },
+    }
 ]
 
 export const gamesProjects = [
