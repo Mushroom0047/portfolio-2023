@@ -7,20 +7,21 @@ import './banner.css';
 import { Fade, Slide } from "react-awesome-reveal";
 
 export const Banner = () => {
-  const expOne = ['Diseño y planificación de desarrollo web','Maquetación páginas en WordPress con Elementor y WpBackery','Desarrollo tiendas Online con Woocommerce','Desarrollos personalizados con JetEngine y Custom Fields'];
+  const expOne = ['Diseño y planificación de desarrollo web con enfoque en la experiencia del usuario','Maquetación páginas en WordPress utilizando herramientas como Elementor y WpBackery','Desarrollo tiendas Online con Woocommerce','Desarrollos personalizados con JetEngine y Custom Fields'];
   const expTwo = ['Planificación de desarrollo web','Maquetación páginas en WordPress con Elementor y Divi','Desarrollo tiendas Online con Woocommerce'];
   return (
-    <Container fluid="lg" className="container__banner" id="about">
+    <Container fluid="lg" className="container__banner" id="about">      
         <Row>        
             <Col sm={12} md={6} className="p-5 mb-5">
                 <Slide cascade triggerOnce>
+                  <p>¡Hola! Me llamo</p>
                 <h1 className="name">HÉCTOR VALDÉS M</h1>                             
                 <p className="description">
-                  ¡Hola! Me llamo Héctor Valdés y soy Analista programador egresado de Inacap 
+                  y soy Analista programador egresado de Inacap 
                   con experiencia en desarrollo web. 
-                  Me especializo en JavaScript, HTML, CSS y en el frameworks React. 
-                  También tengo experiencia en tecnologías de base de datos como MySQL, 
-                  así como en herramientas de desarrollo como Git y GitHub. 
+                  Me especializo en <b>JavaScript, HTML, CSS</b> y en el <b>frameworks React</b>. 
+                  También tengo experiencia en tecnologías de base de datos como <b>MySQL</b>, 
+                  así como en herramientas de desarrollo como <b>Git y GitHub</b>. 
                   <br/> <br/>Estoy comprometido a crear productos digitales de calidad que 
                   sean fáciles de usar y ofrezcan la mejor experiencia para los 
                   usuarios. Siempre estoy aprendiendo nuevas tecnologías y me 
@@ -29,7 +30,7 @@ export const Banner = () => {
                   </p>
                 </Slide>                   
             </Col>
-            <Col className="text-center" sm={12} md={6} lg={6} >              
+            <Col className="text-center d-flex align-items-center" sm={12} md={6} lg={6} >              
               <Slide direction="right" triggerOnce className="col__img__profile">
                 <Image
                 src={ImgProfile}

@@ -4,6 +4,15 @@
 .navbar-toggler{
     border: none !important;
 }
+.link__menu__res{
+  max-width: 30%;
+}
+.link__menu__res a{
+  color: #fff;
+}
+.link__menu__res a:hover{
+  color: #fff;
+}
 .link__menu a {
     background-image: linear-gradient(to right, #dfac13, #dfac13 50%, #fff 50%);
     background-size: 200% 100%;
@@ -15,6 +24,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
+    max-width: 30%;
   }
   
   .link__menu a:before {
@@ -40,3 +50,8 @@
     background-color: #fff;;
   }
   
+  .btn__resume{
+    background-color: #dfac13 !important;
+    border: none !important;
+    width: 100%;
+  }

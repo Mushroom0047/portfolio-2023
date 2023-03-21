@@ -8,7 +8,7 @@ export const Footer = () => {
         <Row>
           <Col className="text-center" xs ={12} sm={12} md={12} lg={12}>
             <hr/>            
-                <a href='https://hectorvaldesm.com/'>                  
+                <a href="#home">                  
                     <img
                       className='img__footer'                   
                       src={LogoWhite}
@@ -17,10 +17,8 @@ export const Footer = () => {
                       alt="Logo blanco hectorvaldes"
                     />
                 </a>
-            <hr/>
-            <p>2023 Héctor Valdés M 🍄</p>
-          </Col>
-          <Col className='js-pride-month-gradient' sm={12} md={12} lg={12}></Col>
+            <hr/>            
+          </Col>        
         </Row>
     </Container>
   )

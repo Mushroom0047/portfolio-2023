@@ -3,13 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '/assets/Logo-Mushroom-home.png'
 import './navbarMenu.css'
+import { Button } from 'react-bootstrap';
+import CV from "/assets/Currículum Hector Valdes M v.10-2022.pdf";
 
 
 const NavbarMenu = () => {
   return (
     <>
-      <Navbar className='menu' expand="lg" sticky="top" collapseOnSelect >
-      <Container>
+      <Navbar className='menu mx-5' expand="lg" sticky="top" collapseOnSelect >
+      <Container fluid>
       <Navbar.Brand href="#home">
         <img
           src={Logo}
@@ -21,13 +23,16 @@ const NavbarMenu = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navMenu" />
       <Navbar.Collapse id="navMenu">
-        <Nav className="link__menu me-auto my-2 my-lg-0" navMenu>
+        <Nav className="link__menu ms-auto my-2 my-lg-0" navMenu>
           <Nav.Link className='px-3' href="#about">Sobre mí</Nav.Link>
           <Nav.Link className='px-3' href="#skills">Habilidades</Nav.Link>
           <Nav.Link className='px-3' href="#experience">Experiencia</Nav.Link>
           <Nav.Link className='px-3' href="#projects">Proyectos</Nav.Link>
           <Nav.Link className='px-3' href="#contact">Hablemos</Nav.Link>
-        </Nav>      
+        </Nav>     
+        <Nav className='link__menu__res'>
+          <Button className='btn__resume'><a href={CV} target="_blank">CURRICULUM</a></Button>
+        </Nav> 
       </Navbar.Collapse>  
       </Container>
     </Navbar> 
