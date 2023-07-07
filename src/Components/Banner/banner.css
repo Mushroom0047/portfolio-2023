@@ -7,4 +7,9 @@
 }
 .col__img__profile img{
     max-width: 60%;
+    transition: transform .2s;
+}
+
+.col__img__profile img:hover{
+    transform: scale(1.5);
 }
