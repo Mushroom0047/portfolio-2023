@@ -1,6 +1,5 @@
 .container__banner{    
     min-height: 600px;
-    background-color: #171717;
 }
 .name{
     font-size: 4rem;
@@ -11,5 +10,5 @@
 }
 
 .col__img__profile img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }

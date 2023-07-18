@@ -31,7 +31,7 @@ export const Contact = () => {
                 <IconContact urlLink={urlLinks[2]} icon={LinkedinSVG} nombre='LinkedIn'/>
                 <IconContact urlLink={urlLinks[3]} icon={EmailSVG} nombre='Email'/>            
                 <Col className="d-flex mt-5 justify-content-center" sm={12}>
-                    <Button className="btn__hubspot" target="_blank" href={urlLinks[4]}>Agendar reunión en Hubspot</Button>
+                    <Button className="btn btn-warning p-2" target="_blank" href={urlLinks[4]}>Agendar reunión en Hubspot</Button>
                 </Col>
             </Row>
             </Fade>

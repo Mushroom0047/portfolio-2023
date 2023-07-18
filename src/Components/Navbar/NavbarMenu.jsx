@@ -10,7 +10,7 @@ import CV from "/assets/CV Hector Valdes M v.04-2023.pdf";
 const NavbarMenu = () => {
   return (
     <>
-      <Navbar className='menu mx-5' expand="lg" sticky="top" collapseOnSelect >
+      <Navbar className='menu' expand="lg" sticky="top" collapseOnSelect >
       <Container fluid>
       <Navbar.Brand href="#home">
         <img
@@ -31,7 +31,7 @@ const NavbarMenu = () => {
           <Nav.Link className='px-3' href="#contact">Hablemos</Nav.Link>
         </Nav>     
         <Nav className='link__menu__res'>
-          <Button className='btn__resume' href={CV} target="_blank">CURRICULUM</Button>
+          <Button className='btn btn-warning' href={CV} target="_blank">Curriculum</Button>
         </Nav> 
       </Navbar.Collapse>  
       </Container>
