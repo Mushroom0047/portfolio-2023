@@ -12,7 +12,7 @@ const NavbarMenu = () => {
     <>
       <Navbar className='menu' expand="lg" sticky="top" collapseOnSelect >
       <Container fluid>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="#about">
         <img
           src={Logo}
           width="60"

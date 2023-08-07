@@ -8,14 +8,14 @@ const Portfolio = () => {
 
   return (
     <>
-      <Row>
+      <Row id="projects">
         <Col sm={12} className="p-5">
           <h2 className="mt-5">Proyectos</h2>
-          <hr/>
+          <hr />
           <ProjectWordpress />
-          <br/>
+          <hr/>
           <ProjectCode />
-          <br />
+          <hr />
           <ProjectGames />
         </Col>
       </Row>

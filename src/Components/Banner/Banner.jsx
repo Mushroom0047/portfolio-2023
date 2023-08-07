@@ -6,7 +6,7 @@ import { Slide } from "react-awesome-reveal";
 
 export const Banner = () => {
   return (
-        <Row>        
+        <Row id="about">        
             <Col sm={12} md={6} className="p-5 mb-5">
                 <Slide cascade triggerOnce>
                   <p>¡Hola! Me llamo</p>

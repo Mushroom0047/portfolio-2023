@@ -8,6 +8,7 @@ const ProjectCarousel = ({image, title, desc, link}) => {
           className="d-block w-100"
           src={image}
           alt={title+'Hector Valdes M - Developer'}
+          title={title}
         />
         <Carousel.Caption className="caption__carousel">
           <h3>{title}</h3>

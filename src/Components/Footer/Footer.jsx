@@ -8,7 +8,7 @@ export const Footer = () => {
         <Row>
           <Col className="text-center" xs ={12} sm={12} md={12} lg={12}>
             <hr/>            
-                <a href="#home">                  
+                <a href="#about">                  
                     <img
                       className='img__footer'                   
                       src={LogoWhite}

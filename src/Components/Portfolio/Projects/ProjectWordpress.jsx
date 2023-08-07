@@ -17,15 +17,15 @@ const ProjectWordpress = () => {
             )});
 
   return (
-    <Row>
+    <Row className="my-5">
         <Col md={4}>
             <h3>Wordpress | Shopify</h3>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit et sapien eget a urna pharetra, litora class dictumst potenti torquent senectus mauris luctus gravida tincidunt euismod molestie. Aptent senectus integer montes rutrum nullam venenatis orci accumsan, est porta pharetra hac massa a habitant taciti, posuere nisi sodales lectus libero luctus scelerisque.
+            he tenido la oportunidad de desarrollar y participar en la creación de diversas páginas web, tanto de manera independiente como colaborando con agencias de marketing. Mi experiencia abarca proyectos variados, donde he contribuido con mi pasión por el desarrollo web y mi habilidad para transformar ideas en sitios web funcionales y atractivos. Cada colaboración me ha brindado la oportunidad de perfeccionar mis habilidades y entregar soluciones que superen las expectativas de mis clientes.
             </p>
         </Col>
         <Col md={8}>
-            <Carousel>
+            <Carousel pause="hover">
                 {listadoWordpress}
             </Carousel>
       

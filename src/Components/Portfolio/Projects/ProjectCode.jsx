@@ -17,17 +17,17 @@ const ProjectCode = () => {
             )});
 
   return (
-    <Row>
+    <Row  className="my-5">
         <Col md={8}>
-            <Carousel>
+            <Carousel pause="hover">
                 {listadoCodes}
             </Carousel>
       
         </Col>
         <Col md={4}>
-            <h3>Códigos JavaScript</h3>
+            <h3>Códigos desarrollados</h3>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit et sapien eget a urna pharetra, litora class dictumst potenti torquent senectus mauris luctus gravida tincidunt euismod molestie. Aptent senectus integer montes rutrum nullam venenatis orci accumsan, est porta pharetra hac massa a habitant taciti, posuere nisi sodales lectus libero luctus scelerisque.
+            En mi trayectoria profesional, he tenido el privilegio de trabajar en diversos proyectos para clientes, donde he demostrado mi experiencia en la integración de JavaScript en WordPress. He creado y desarrollado una serie de códigos personalizados que han enriquecido la funcionalidad y la experiencia del usuario en sitios web basados en WordPress. Mi pasión por la programación y mi compromiso con la excelencia me han impulsado a ofrecer soluciones creativas y efectivas para cada proyecto que emprendo.
             </p>
         </Col>
     </Row>

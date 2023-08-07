@@ -17,15 +17,15 @@ const ProjectGames = () => {
             )});
 
   return (
-    <Row>
+    <Row  className="my-5">
         <Col md={4}>
-            <h3>Wordpress | Shopify</h3>
+            <h3>Videojuegos desarrollados</h3>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit et sapien eget a urna pharetra, litora class dictumst potenti torquent senectus mauris luctus gravida tincidunt euismod molestie. Aptent senectus integer montes rutrum nullam venenatis orci accumsan, est porta pharetra hac massa a habitant taciti, posuere nisi sodales lectus libero luctus scelerisque.
+            Mi verdadera pasión son los videojuegos indies, y gracias a ella, he creado varios juegos que me han permitido desarrollar y fortalecer mis habilidades en programación. A través de estas experiencias, he aprendido valiosas lecciones y adquirido un profundo conocimiento en el mundo del desarrollo de videojuegos. Cada proyecto ha sido una oportunidad única para combinar mi creatividad con mis habilidades técnicas y así crear experiencias únicas y envolventes para los jugadores.
             </p>
         </Col>
         <Col md={8}>
-            <Carousel>
+            <Carousel pause="hover">
                 {listadoGames}
             </Carousel>
       
