@@ -18,7 +18,7 @@ const NavbarMenu = () => {
           width="60"
           height="60"
           className="d-inline-block align-top"
-          alt="React Bootstrap logo"
+          alt="logo"
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navMenu" />

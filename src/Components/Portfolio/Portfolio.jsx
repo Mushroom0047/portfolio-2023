@@ -1,36 +1,25 @@
-import { Col, Container, Row, Tab, Tabs } from "react-bootstrap"
-import { Projects } from "../Projects/Projects"
+import { Col, Row } from "react-bootstrap"
 import './portfolio.css'
-
-import {reactProjects, wordpressProjects, gamesProjects} from '../Projects/projectsList.js';
+import ProjectWordpress from "./Projects/ProjectWordpress";
+import ProjectCode from "./Projects/ProjectCode";
+import ProjectGames from "./Projects/ProjectGames";
 
 const Portfolio = () => {
 
   return (
-    <Container fluid='lg' id="projects">
+    <>
       <Row>
         <Col sm={12} className="p-5">
-        <h2 className="mt-5">Proyectos</h2>
-        <hr/>
-            <Tabs
-          defaultActiveKey="wordpress"
-          id="projectsTabs" 
-          className="portfolio__tabs"
-          justify         
-          >
-            <Tab eventKey="wordpress" title="WordPress | Shopify" className="portfolio__tabs">
-            <Projects nameProject={wordpressProjects}/>
-            </Tab>
-            <Tab eventKey="games" title="Games" className="portfolio__tabs">
-            <Projects nameProject={gamesProjects}/>
-            </Tab>
-            <Tab eventKey="react" title="React">
-              <Projects nameProject={reactProjects}/>
-            </Tab>                        
-          </Tabs>
+          <h2 className="mt-5">Proyectos</h2>
+          <hr/>
+          <ProjectWordpress />
+          <br/>
+          <ProjectCode />
+          <br />
+          <ProjectGames />
         </Col>
       </Row>
-    </Container>
+      </>
   )
 }
 

@@ -1,11 +1,10 @@
-import { Button, Col, Container, Row } from "react-bootstrap"
-import InstagramSVG from '/assets/61-camera-outline.webp';
+import { Button, Col, Row } from "react-bootstrap"
 import LinkedinSVG from '/assets/705-man-style-3-outline.webp';
 import GitSVG from '/assets/1325-code-fork-outline.webp';
 import EmailSVG from '/assets/145-envelope-mail-notification-open-morph-outline.webp';
 import IconContact from "./IconContact";
 import './contact.css';
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export const Contact = () => {
     const urlLinks = [
@@ -17,7 +16,6 @@ export const Contact = () => {
     ];
  
   return (
-    <Container fluid="lg">
         <Row>
             <Col className="px-5">
                 <Slide triggerOnce>
@@ -25,7 +23,6 @@ export const Contact = () => {
                 </Slide>
                 <hr />
             </Col>
-            <Fade direction="up" triggerOnce>
             <Row className="row__icons">                
                 <IconContact urlLink={urlLinks[1]} icon={GitSVG} nombre='Github'/>
                 <IconContact urlLink={urlLinks[2]} icon={LinkedinSVG} nombre='LinkedIn'/>
@@ -34,8 +31,6 @@ export const Contact = () => {
                     <Button className="btn btn-warning p-2" target="_blank" href={urlLinks[4]}>Agendar reunión en Hubspot</Button>
                 </Col>
             </Row>
-            </Fade>
         </Row>        
-    </Container>
   )
 }

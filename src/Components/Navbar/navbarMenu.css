@@ -16,7 +16,7 @@
   }
 }
 
-.link__menu a {
+.link__menu a, .link__carousel {
     background-image: linear-gradient(to right, #dfac13, #dfac13 50%, #fff 50%);
     background-size: 200% 100%;
     background-position: -100%;
@@ -29,7 +29,7 @@
     transition: all 0.3s ease-in-out;
   }
   
-  .link__menu a:before {
+  .link__menu a:before, .link__carousel:before  {
     background: #dfac13;
     bottom: -3px;
     content: "";
@@ -41,13 +41,18 @@
     width: 0;
   }
   
-  .link__menu a:hover {
+  .link__menu a:hover, .link__carousel:hover {
     background-position: 0;
   }
   
-  .link__menu a:hover::before {
+  .link__menu a:hover::before, .link__carousel:hover::before  {
     width: 100%;
   }
   button[aria-controls='navMenu']{
     background-color: #fff;;
+  }
+
+  .navbar-toggler:hover{
+    background-color: #dfac13;
+    transition: .3s;
   }
