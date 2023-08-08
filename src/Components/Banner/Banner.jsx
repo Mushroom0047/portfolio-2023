@@ -2,13 +2,11 @@ import { Col, Row } from "react-bootstrap"
 import ImgProfile from '/assets/yo-webp.webp';
 import Image from 'react-bootstrap/Image';
 import './banner.css';
-import { Slide } from "react-awesome-reveal";
 
 export const Banner = () => {
   return (
         <Row id="about">        
             <Col sm={12} md={6} className="p-5 mb-5">
-                <Slide cascade triggerOnce>
                   <p>¡Hola! Me llamo</p>
                 <h1 className="name">HÉCTOR VALDÉS M</h1>                             
                 <p className="description">
@@ -22,11 +20,9 @@ export const Banner = () => {
                   usuarios. Siempre estoy aprendiendo nuevas tecnologías y me 
                   aseguro de estar al tanto de los últimos avances en el desarrollo 
                   web.
-                  </p>
-                </Slide>                   
+                  </p>                  
             </Col>
-            <Col className="text-center d-flex align-items-center" sm={12} md={6} lg={6} >              
-              <Slide direction="right" triggerOnce className="col__img__profile">
+            <Col className="text-center d-flex align-items-center col__img__profile" sm={12} md={6} lg={6} >              
                 <Image
                 src={ImgProfile}
                 width='80%'
@@ -34,7 +30,6 @@ export const Banner = () => {
                 alt='Imagen de perfil'
                 roundedCircle
                 />                                      
-              </Slide>
             </Col>
         </Row>                     
   )

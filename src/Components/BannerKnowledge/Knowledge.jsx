@@ -1,6 +1,5 @@
 import { Col, Fade, Row } from "react-bootstrap"
 import { Skills } from "./Skills/Skills"
-import { Slide } from "react-awesome-reveal"
 import Experience from "./Experience/Experience"
 
 const Knowledge = () => {
@@ -35,11 +34,8 @@ const Knowledge = () => {
             </div>
           </Col>
           <Col xs='12' sm='12' md='6' lg='6' className="p-5 mb-5">
-          <Slide triggerOnce direction='right'> 
             <h2 className="mt-5" id='experience'>Experiencia</h2>
-            </Slide>
             <hr />
-            <Slide cascade triggerOnce direction='right'>
             <Experience
               year = {experience[0].year} 
               company = {experience[0].company}
@@ -50,7 +46,6 @@ const Knowledge = () => {
               company = {experience[1].company}
               excerpt= {experience[1].desc}
               />                                           
-              </Slide>
           </Col>
         </Row> 
   )

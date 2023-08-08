@@ -27,7 +27,7 @@ const ProjectCode = () => {
         <Col md={4}>
             <h3>Códigos desarrollados</h3>
             <p>
-            En mi trayectoria profesional, he tenido el privilegio de trabajar en diversos proyectos para clientes, donde he demostrado mi experiencia en la integración de JavaScript en WordPress. He creado y desarrollado una serie de códigos personalizados que han enriquecido la funcionalidad y la experiencia del usuario en sitios web basados en WordPress. Mi pasión por la programación y mi compromiso con la excelencia me han impulsado a ofrecer soluciones creativas y efectivas para cada proyecto que emprendo.
+           He creado y desarrollado una serie de códigos personalizados que han enriquecido la funcionalidad y la experiencia del usuario en sitios web basados en WordPress. Mi pasión por la programación y mi compromiso con la excelencia me han impulsado a ofrecer soluciones creativas y efectivas para cada proyecto que emprendo.
             </p>
         </Col>
     </Row>

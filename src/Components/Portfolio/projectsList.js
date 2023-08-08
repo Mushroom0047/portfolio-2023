@@ -157,4 +157,10 @@ export const codeProjects = [
         urlImg: urlImg  + "fotos portafolio hector valdes m _ Script python.webp",
         link: "https://github.com/Mushroom0047/Image-converte-py",
     },
+    {
+        title: "Script para contar pixeles",
+        desc: 'Script desarrollado en JavaScript para contar colores de los pixeles de una imágen PNG.',
+        urlImg: urlImg  + "fotos portafolio hector valdes m  Script contador de pixeles.webp",
+        link: "#",
+    },
 ]
