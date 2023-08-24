@@ -21,7 +21,7 @@ const ProjectGames = () => {
         <Col md={4}>
             <h3>Videojuegos desarrollados</h3>
             <p>
-            Mi verdadera pasión son los videojuegos indies, y gracias a ella, he creado varios juegos que me han permitido desarrollar y fortalecer mis habilidades en programación. A través de estas experiencias, he aprendido valiosas lecciones y adquirido un profundo conocimiento en el mundo del desarrollo de videojuegos. Cada proyecto ha sido una oportunidad única para combinar mi creatividad con mis habilidades técnicas y así crear experiencias únicas y envolventes para los jugadores.
+            Mi verdadera pasión son los videojuegos, y gracias a ella, he creado varios juegos que me han permitido aprender, desarrollar y fortalecer mis habilidades en programación. A través de estas experiencias, he aprendido valiosas lecciones y adquirido un profundo conocimiento en el mundo del desarrollo de videojuegos.
             </p>
         </Col>
         <Col md={8}>

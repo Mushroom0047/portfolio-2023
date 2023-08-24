@@ -22,13 +22,13 @@ export const Banner = () => {
                   web.
                   </p>                  
             </Col>
-            <Col className="text-center d-flex align-items-center col__img__profile" sm={12} md={6} lg={6} >              
+            <Col className="text-center d-flex align-items-center col__img__profile justify-content-center" xs={12} sm={12} md={6} lg={6} >              
                 <Image
                 src={ImgProfile}
-                width='80%'
+                width='60%'
                 height='auto'
                 alt='Imagen de perfil'
-                roundedCircle
+                roundedCircle              
                 />                                      
             </Col>
         </Row>                     

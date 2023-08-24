@@ -6,7 +6,7 @@ const Knowledge = () => {
     const experience = [
         {
             company: "Agencia de marketing GrupoQs",
-            desc: ['Diseño y planificación de desarrollo web con enfoque en la experiencia del usuario','Maquetación páginas en WordPress utilizando herramientas como Elementor y WpBackery','Desarrollo tiendas Online con Woocommerce','Desarrollos personalizados con JetEngine y Custom Fields'],
+            desc: ['Diseño y planificación de desarrollo web con enfoque en la experiencia del usuario','Maquetación y mantención de páginas en WordPress utilizando herramientas como Elementor y WpBackery','Desarrollo tiendas Online con Woocommerce','Desarrollos personalizados con JetEngine y Custom Fields'],
             year: "20220401" 
         },
         {

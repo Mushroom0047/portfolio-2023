@@ -17,6 +17,9 @@ export const Footer = () => {
                       alt="Logo blanco hectorvaldes"
                     />
                 </a>
+                <br/>
+                <h5 className='pt-3'>Made with React</h5>
+                <img width="50" height="50" src="https://img.icons8.com/plasticine/100/react.png" alt="react"/>
             <hr/>            
           </Col>        
         </Row>

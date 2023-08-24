@@ -70,7 +70,7 @@ export const WordPressProjects = [
     {
         title: "Sitio web Estación Lastarria",
         desc: "Sitio web con cursos, desarrollado en WordPress con Elementor.",
-        urlImg: urlImg  + "fotos portafolio hector valdes m _ Estación Lastarria.webp",
+        urlImg: urlImg  + "fotos portafolio hector valdes m _ Estacion Lastarria.webp",
         link: "https://estacionlastarria.cl/",
     },
     {
@@ -94,7 +94,7 @@ export const WordPressProjects = [
     {
         title: "Sitio web Refuerza Más",
         desc: "Sitio web empresa Refuerza más, desarrollado en WordPress con Elementor.",
-        urlImg: urlImg  + "fotos portafolio hector valdes m _ Refuerzamás.webp",
+        urlImg: urlImg  + "fotos portafolio hector valdes m _ Refuerzamas.webp",
         link: "#",
     },
     {
@@ -130,7 +130,7 @@ export const codeProjects = [
     {
         title: "Extensión para Google Chrome",
         desc: 'Extensión para convertir texto en minúsculas, mayúsculas y Capitalizada, desarrollado con HTML, CSS y JavaScript.',
-        urlImg: urlImg  + "fotos portafolio hector valdes m _ Extensión para Chrome.webp",
+        urlImg: urlImg  + "fotos portafolio hector valdes m _ Extension para Chrome.webp",
         link: "https://chrome.google.com/webstore/detail/upperlower/clhpelfcjphahimcabjdabcocdnphnfe",
     },
     {
@@ -142,7 +142,7 @@ export const codeProjects = [
     {
         title: "Juego Cartas por la inclusión",
         desc: 'Página pensada como un juego de cartas donde se muestran 3 mazos con diseños diferentes, los cuales se pueden revolver y girar las cartas. Desarrollado con JavaScript insertado en WordPress.',
-        urlImg: urlImg  + "fotos portafolio hector valdes m _ Juego cartas por la inclusión.webp",
+        urlImg: urlImg  + "fotos portafolio hector valdes m _ Juego cartas por la inclusion.webp",
         link: "https://cartasporlainclusion.com/juego-online/",
     },
     {
