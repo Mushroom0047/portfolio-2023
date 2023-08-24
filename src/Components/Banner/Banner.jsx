@@ -1,7 +1,8 @@
 import { Col, Row } from "react-bootstrap"
-import ImgProfile from '/assets/yo-webp.webp';
-import Image from 'react-bootstrap/Image';
+import ImgProfile from '/assets/Foto de mi.webp';
+import VideoOfMe from '/assets/MovementImageVideo.mp4';
 import './banner.css';
+import FlipCard from "./FlipCard/FlipCard";
 
 export const Banner = () => {
   return (
@@ -21,15 +22,12 @@ export const Banner = () => {
                   aseguro de estar al tanto de los últimos avances en el desarrollo 
                   web.
                   </p>                  
-            </Col>
-            <Col className="text-center d-flex align-items-center col__img__profile justify-content-center" xs={12} sm={12} md={6} lg={6} >              
-                <Image
-                src={ImgProfile}
-                width='60%'
-                height='auto'
-                alt='Imagen de perfil'
-                roundedCircle              
-                />                                      
+            </Col>          
+            <Col>
+              <FlipCard 
+              videoUrl={VideoOfMe}
+              imageUrl={ImgProfile}
+              />
             </Col>
         </Row>                     
   )
