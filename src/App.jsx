@@ -1,27 +1,16 @@
-import { Banner } from "./Components/Banner/Banner"
-import { FloatContact } from "./Components/Contacto/Contact floating/FloatContact"
-import { Contact } from "./Components/Contacto/Contact"
-import { Footer } from "./Components/Footer/Footer"
-import NavbarMenu from "./Components/Navbar/NavbarMenu"
-import Portfolio from "./Components/Portfolio/Portfolio"
-import Knowledge from "./Components/BannerKnowledge/Knowledge"
-import { Container } from "react-bootstrap"
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./Pages/Home";
+import { PrivacyPolicyUpperLower } from "./Pages/PrivacyPolicyUpperLower";
 
 function App() {
   
   return (
-    <>      
-      <NavbarMenu />
-      <Container fluid="lg">    
-        <Banner />
-        <Knowledge />
-        <Portfolio />
-        <Contact />
-      </Container>
-      <Footer />     
-      <FloatContact /> 
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="privacy-policy-upper-lower" element={<PrivacyPolicyUpperLower />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
