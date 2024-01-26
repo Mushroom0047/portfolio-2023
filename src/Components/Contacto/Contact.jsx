@@ -11,7 +11,7 @@ export const Contact = () => {
         'https://www.instagram.com/mushroom.dev/?hl=es-la',
         'https://github.com/Mushroom0047',
         'https://www.linkedin.com/in/h%C3%A9ctor-vald%C3%A9s-m',
-        'mailto:contacto@hectorvaldesm.com?subject=Contacto%20web',
+        'mailto:hectorvaldesm47@gmail.com?subject=Contacto%20web',
         'https://meetings.hubspot.com/hector-valdes'
     ];
  
@@ -26,10 +26,7 @@ export const Contact = () => {
             <Row className="row__icons">                
                 <IconContact urlLink={urlLinks[1]} icon={GitSVG} nombre='Github'/>
                 <IconContact urlLink={urlLinks[2]} icon={LinkedinSVG} nombre='LinkedIn'/>
-                <IconContact urlLink={urlLinks[3]} icon={EmailSVG} nombre='Email'/>            
-                <Col className="d-flex mt-5 justify-content-center" sm={12}>
-                    <Button className="btn btn-warning p-2" target="_blank" href={urlLinks[4]}>Agendar reunión en Hubspot</Button>
-                </Col>
+                <IconContact urlLink={urlLinks[3]} icon={EmailSVG} nombre='Email'/>                            
             </Row>
         </Row>        
   )

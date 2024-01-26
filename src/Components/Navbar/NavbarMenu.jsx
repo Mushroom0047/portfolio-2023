@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Logo from '/assets/Logo-Mushroom-home.png'
 import './navbarMenu.css'
 import { Button } from 'react-bootstrap';
-import CV from "/assets/Hector Valdes M cv v10-2023.pdf";
+import CV from "/assets/Hector Valdes M cv v02-2024.pdf";
 
 
 const NavbarMenu = () => {

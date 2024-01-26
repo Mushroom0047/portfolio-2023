@@ -1,8 +1,7 @@
-import { Col, Row } from "react-bootstrap"
+import { Col, Image, Row } from "react-bootstrap"
 import ImgProfile from '/assets/Foto de mi.webp';
-import VideoOfMe from '/assets/MovementImageVideo.mp4';
 import './banner.css';
-import FlipCard from "./FlipCard/FlipCard";
+
 
 export const Banner = () => {
   return (
@@ -23,11 +22,8 @@ export const Banner = () => {
                   web.
                   </p>                  
             </Col>          
-            <Col>
-              <FlipCard 
-              videoUrl={VideoOfMe}
-              imageUrl={ImgProfile}
-              />
+            <Col className="col__img__profile text-center">
+              <Image src={ImgProfile} roundedCircle/>
             </Col>
         </Row>                     
   )

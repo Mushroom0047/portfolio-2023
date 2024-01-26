@@ -4,6 +4,7 @@
 .name{
     font-size: 4rem;
 }
+
 .col__img__profile img{
     max-width: 60%;
     transition: transform .2s;
